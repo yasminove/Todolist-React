@@ -1,0 +1,27 @@
+.todo-item{
+  padding: 16px 5px;
+  border-bottom: 5px  #bbb;
+  display: flex;
+}
+
+.todo-item:hover{
+  background: #eee;
+}
+
+.item-name{
+  flex-basis: 0;
+  flex-grow: 9;
+  font-family: tahoma;
+  /*margin: 30px;*/
+  font-style: italic;
+
+}
+
+.item-remove{
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: right;
+  color: #32bac1;
+  font-weight: bold;
+  cursor: pointer;
+}
